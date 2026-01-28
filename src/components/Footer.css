@@ -1,0 +1,33 @@
+.footer {
+  padding: 2rem;
+  background: #1a1a1a;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.footer-name {
+  color: #667eea;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-name {
+    color: #4dabf7;
+  }
+}
+
+.footer-copyright {
+  color: #666;
+  font-size: 0.85rem;
+  margin: 0;
+}
