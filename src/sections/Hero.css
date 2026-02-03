@@ -18,6 +18,14 @@
   text-align: center;
 }
 
+.hero-photo {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
 .hero-greeting {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.9);

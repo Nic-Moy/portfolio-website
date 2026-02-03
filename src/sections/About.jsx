@@ -2,13 +2,16 @@ import './About.css'
 
 function About() {
   const skills = [
-    'JavaScript',
-    'React',
-    'HTML',
-    'CSS',
-    'Git',
-    'Node.js',
-    // Add more skills here
+    'Python (Pandas, NumPy, scikit-learn)',
+    'Data ETL',
+    'SQL',
+    'Postgres',
+    'MongoDB',
+    'Tableau/Power BI',
+    'Git/Github',
+    'Microsoft Office (Excel, Word, Powerpoint)',
+    'Teamwork',
+    'Communication'
   ]
 
   return (
@@ -19,18 +22,17 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Hello! I'm a passionate frontend developer who loves building
-              things for the web. I enjoy creating beautiful, functional
-              websites that provide great user experiences.
+              Hello! I'm an aspiring data scientist with strong ML interests. I enjoy incorporating
+              models and data into practical applications. I especially enjoy when i can blend my love for sports
+              and the outdoors with data analytics.
             </p>
             <p>
-              My journey into web development started when I discovered
-              the power of turning ideas into reality through code. Since then,
-              I've been constantly learning and improving my skills.
+              I have my Bachelors in Computer Engineering from CSU Long Beach, and I am currently
+              in the Computer Science Masters program at the University of Southern California.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies,
-              working on personal projects, or learning something new.
+              When I'm not coding, you can find me playing basketball,
+              snowboarding, or learning something new!
             </p>
           </div>
 

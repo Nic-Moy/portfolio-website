@@ -16,7 +16,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <a href="#hero" className="navbar-logo" onClick={closeMenu}>
-          My Portfolio site
+          Nic's Portfolio 
         </a>
 
         <button
@@ -30,7 +30,7 @@ function Navbar() {
         </button>
 
         <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="#about" onClick={closeMenu}>About</a></li>
+          <li><a href="#about" onClick={closeMenu}>About Me</a></li>
           <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
           <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
         </ul>
